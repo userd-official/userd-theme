@@ -109,6 +109,13 @@ a:hover {
   width: 80%;
 }
 
+.content iframe,
+.content img,
+.content blockquote,
+.content table {
+  text-align: center;
+}
+
 .content .headers {
   text-align: center;
 }
