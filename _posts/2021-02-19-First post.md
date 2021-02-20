@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Welcome to Jekyll!"
-image: "https://userd.xyz/assets/images/userd.banner.png"
 ---
 
 # Welcome

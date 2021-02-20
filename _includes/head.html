@@ -1,6 +1,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>userd blog</title>
+{% if page.layout == "post" %}
+    <title>{{page.title}} - userd blog</title>
+{% else %}
+    <title>userd blog</title>
+{% endif %}
 <meta name="title" content="userd">
 <meta name="description" content="Bots on Discord, Telegram and Twitter">
 <meta name="keywords"
