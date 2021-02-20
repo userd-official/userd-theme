@@ -1,0 +1,14 @@
+title: userd blog
+description: We make bots.
+author: userd
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
